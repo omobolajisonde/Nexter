@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Nexter website",
   "source":"./index.html",
+  "default": "index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
   "start": "parcel",
-  "build": "parcel build"
+  "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Bolaji [from Jonas Schmedtmann Course]",
   "license": "ISC",
